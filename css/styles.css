@@ -58,11 +58,11 @@ P3{
 /*this corrects the spacing around the 1st item in the topnav ul*/
 #topnav 	ul li		{display:inline; list-style-type:none; padding: 10px 25px 25px 25px; margin: 0px;}
 /* Using margin here puts space around each of the items in the nav list */
-#topnav	a:link			{ font-weight:bold; text-decoration:none; text-transform:uppercase; color:#000; font-size:16px;}
-#topnav	a:visited		{ font-weight:bold; text-decoration:none; text-transform:uppercase; color:#000; font-size:16px;}
-#topnav	a:active		{ font-weight:bold; text-decoration:none; text-transform:uppercase; color:#000; font-size:16px;}
-#topnav	a:hover			{ font-weight:bold; text-decoration:none; text-transform:uppercase; color:#667; font-size:16px;}
-#topnav	a:focus			{ font-weight:bold; text-decoration:none; text-transform:uppercase; color:#667; font-size:16px;}
+#topnav a:link     { font-weight:bold; text-decoration:none; text-transform:uppercase; color:#000; font-size:20px;}
+#topnav a:visited  { font-weight:bold; text-decoration:none; text-transform:uppercase; color:#000; font-size:20px;}
+#topnav a:active   { font-weight:bold; text-decoration:none; text-transform:uppercase; color:#000; font-size:20px;}
+#topnav a:hover    { font-weight:bold; text-decoration:none; text-transform:uppercase; color:#667; font-size:20px;}
+#topnav a:focus    { font-weight:bold; text-decoration:none; text-transform:uppercase; color:#667; font-size:20px;}
 /*The first attribute bolds the text, the second attribute removes the underlines, the third ensures all are shown in Uppercase, the fourth states the colour the link will change to when hovered over and the last the font size.*/
 
 #content				{float:left; 
