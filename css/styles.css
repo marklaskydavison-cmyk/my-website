@@ -150,20 +150,17 @@ text-align:center;
 /*Dalliance & Music Page  #music*/
 #music p {text-align:center;}
 
-/* Experience */
-.experience-list,
-.experience-list ul,
-#content-experience ul {
-    list-style: none !important;
-    padding: 0;
-    margin: 0;
+/*Experience*/
+#experience ul {
+    list-style-type:none;
+    padding:0;
+    margin:0;
 }
 
-.experience-list li,
-#content-experience li {
-    color: #000000;
-    font-size: 15px;
-    line-height: 150%;
-    font-weight: normal;
-    padding: 3px 0;
+#experience li {
+    color:#000000;
+    font-size:15px;
+    line-height:150%;
+    font-weight:normal;
+    padding:3px 0px;
 }
