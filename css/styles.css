@@ -6,7 +6,7 @@ font-family:Tahoma, Geneva, sans-serif;
 
 */
 
-* {padding=0; margin=0; border=0;}
+* { padding:0; margin:0; border:0; }
 /*REMOVES DEFAULT STYLES SET BY BROWSER */
 
 body					{ font-family:"Open Sans", Gadget, sans-serif}
@@ -153,8 +153,8 @@ text-align:center;
 /*Experience*/
 #experience ul {
     list-style-type:none;
-    padding-left:0;
-    margin-left:0;
+    padding:0;
+    margin:0;
 }
 
 #experience li {
