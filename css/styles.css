@@ -150,4 +150,16 @@ text-align:center;
 #music p {text-align:center;}
 
 /*Experience*/
-#experience li {color:#000000;font-size:15px; line-height:150%;}
+#experience ul {
+    list-style-type:none;
+    padding-left:0;
+    margin-left:0;
+}
+
+#experience li {
+    color:#000000;
+    font-size:15px;
+    line-height:150%;
+    font-weight:normal;
+    padding:3px 0px;
+}
