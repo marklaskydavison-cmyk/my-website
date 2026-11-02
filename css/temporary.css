@@ -1,0 +1,93 @@
+/* CSS Document */
+
+* {padding=0; margin=0; border=0;}
+/*REMOVES DEFAULT STYLES SET BY BROWSER */
+
+body					{background-image:url(../images/2-background/background_sml.jpg); background-repeat:repeat; font-family:Arial, Helvetica, sans-serif;}
+
+
+h1, h2, h3 				{font-family:'Open Sans Condensed', Arial, Helvetica, sans-serif;}
+/*this is a group selector statement ie. h1, h2 & h3 are all done together.  The 'Open Sans Condensed', is obtained from www.google.com/webfonts*/
+
+#banner {padding:20px 0px;
+		background-color:#66F;
+	}
+
+/* Containers */
+#wrapper 				{width:900px; margin:20px auto; background-color:#fff; padding:0px 40px;}
+/*the wrapper width sets the width available to the web page.  900 or 960 will be good for display on all screens including tablets.*/
+	
+
+#topnav 				{clear:both;}
+/* clear:both; MEANS THE TOPNAV WILL CLEAR BOTH THE LOGO FLOAT:LEFT & SOCIAL-MEDIA FLOAT:RIGHT by not floating up next to them */
+
+#topnav		ul			{padding:15px 0px; margin:0px; border-top: 1px #000 dotted;}
+/*this corrects the spacing around the 1st item in the topnav ul*/
+#topnav 	ul li		{display:inline; list-style-type:none; margin: 0px 40px 0px 0px;}
+/* Using margin here puts space around each of the items in the nav list */
+#topnav	a:link			{ font-weight:bold; text-decoration:none; text-transform:uppercase; color:#000; font-size:14px;}
+#topnav	a:visited		{ font-weight:bold; text-decoration:none; text-transform:uppercase; color:#000; font-size:14px;}
+#topnav	a:active		{ font-weight:bold; text-decoration:none; text-transform:uppercase; color:#000; font-size:14px;}
+#topnav	a:hover			{ font-weight:bold; text-decoration:none; text-transform:uppercase; color:#A85400; font-size:14px;}
+#topnav	a:focus			{ font-weight:bold; text-decoration:none; text-transform:uppercase; color:#A85400; font-size:14px;}
+
+
+#content {margin-left:150px;
+			padding: 0px 20px;
+	}
+	
+#footer {padding:20px 0px;
+	}
+
+ul li 	{display:inline;
+			list-style-type:none; 
+			}
+/* list-style-type:none; REMOVES BULLET POINTS IN AN UNORDERED LIST */
+
+a		{background-color:#0080C0; 
+			width:150px;
+			padding:5px 20px;
+			text-decoration:none;
+			font-family:Arial, Helvetica, sans-serif;
+			font-weight:bold;
+			border-bottom:1px #ccc solid;
+			 }
+/*text-decoration:none REMOVES THE UNDERLINE FROM THE LINKS */
+
+a:link		{color:#FFF; }
+a:visited	{color:#FFF; }
+a:active	{color:#FFF; }
+a:hover		{color:#FC0; background-color:#006A9D }
+a:focus		{color:#FC0; }
+
+h1 {font-family:Arial, Helvetica, sans-serif;
+		font-size:32px;
+		font-weight:bold;
+		font-style:italic;
+		color:#F00;
+		text-align:center; }
+
+h2 {font-family:Arial, Helvetica, sans-serif;
+		font-size:24px;
+		font-weight:bold;
+		font-style:normal;
+		color:#00F; 
+		text-align:right;}
+
+h3 {font-family:Arial, Helvetica, sans-serif;
+		font-size:18px;
+		font-weight:bold;
+		font-style:normal;
+		color:#0F0; }
+
+p	{font-family:"Courier New", Courier, monospace;
+		font-size:14px;
+		font-weight:bold;
+		font-style:normal;
+		color:#F60;
+		line-height:150%; }
+		
+img {padding:20px;
+		border:1px; #f00 solid;
+		margin:20px;}
+		

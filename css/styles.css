@@ -1,0 +1,153 @@
+/* CSS Document */
+
+/*
+font-family:Arial, Helvetica, sans-serif;
+font-family:Tahoma, Geneva, sans-serif;
+
+*/
+
+* {padding=0; margin=0; border=0;}
+/*REMOVES DEFAULT STYLES SET BY BROWSER */
+
+body					{ font-family:"Arial Black", Gadget, sans-serif}
+/*background-image:url(../images/2-background/background_sml.jpg); background-repeat:repeat;*/
+
+h1, h2, h3, h4, h5, h6 { 
+font-family:"Arial Black", Gadget, sans-serif;
+font-weight: bold; 
+color: #000; 
+text-align:left;}
+
+P{
+	font-family: "Arial", Gadget, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: 000;
+	line-height: 150%;
+
+}
+
+P2{
+	font-family: "Arial", Gadget, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: 000;
+	line-height: 150%;
+	font-style: italic;
+}
+
+P3{
+	font-family: "Arial", Gadget, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: 000;
+	line-height: 150%;
+}
+
+/* Main Page */
+#wrapper 				{width:900px; margin:20px auto; background-color:#fff; padding:0px 40px;}
+/*the wrapper width sets the width available to the web page.  900 or 960 will be good for display on all screens including tablets.*/
+
+#logo 	{margin:25px 0px 0px 0px;}	/*positions the logo*/
+
+#topnav 				{clear:both; }
+/* clear:both; MEANS THE TOPNAV WILL CLEAR BOTH THE LOGO FLOAT:LEFT & SOCIAL-MEDIA FLOAT:RIGHT by not floating up next to them */
+
+#topnav		ul			{padding: 30px 0px 30px 80px;  border-top: 1px #000 dotted; }
+/*this corrects the spacing around the 1st item in the topnav ul*/
+#topnav 	ul li		{display:inline; list-style-type:none; padding: 10px 25px 25px 25px; margin: 0px;}
+/* Using margin here puts space around each of the items in the nav list */
+#topnav	a:link			{ font-weight:bold; text-decoration:none; text-transform:uppercase; color:#000; font-size:16px;}
+#topnav	a:visited		{ font-weight:bold; text-decoration:none; text-transform:uppercase; color:#000; font-size:16px;}
+#topnav	a:active		{ font-weight:bold; text-decoration:none; text-transform:uppercase; color:#000; font-size:16px;}
+#topnav	a:hover			{ font-weight:bold; text-decoration:none; text-transform:uppercase; color:#667; font-size:16px;}
+#topnav	a:focus			{ font-weight:bold; text-decoration:none; text-transform:uppercase; color:#667; font-size:16px;}
+/*The first attribute bolds the text, the second attribute removes the underlines, the third ensures all are shown in Uppercase, the fourth states the colour the link will change to when hovered over and the last the font size.*/
+
+#content				{float:left; 
+/*width:900px; padding:0px 40px;*/}
+/*width helps position the content relative to the rightside below*/
+#content p	{ font-size:15px; line-height:200%; width:auto;}
+#content h1, h2 {color:#000;}
+
+#showreel li	{list-style-type:none;}
+
+img.zero	{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+img.one	{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#footer			{ clear:both; padding:10px 0px; margin:0px; border-top: 1px #000 dotted;}
+/* clear:both; MEANS THE FOOTER WILL CLEAR BOTH THE CONTENT FLOAT:LEFT & RIGHTSIDE FLOAT:RIGHT by not floating up next to them*/
+#footer p	{ text-align:center; font-size:14px; font-weight:bold;}
+
+/*Film Page*/
+
+img.two {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/*Centres the jpg poster within the web page*/
+
+/*Music Page*/
+
+#two {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+/*Centres the Dalliance & Milkbar Collective images within the web page*/
+
+#content-music p	{ font-size:15px; line-height:200%; width:auto;}
+#content-music h1, h2 {color:#000;   text-align:center;
+margin-left: auto;  margin-right: auto;  width: 100%;}
+
+#gallery	{list-style-type:none;}
+#content-music 		ul			{list-style-type:none; padding:0px 0px; margin:0px; }
+/*this corrects the spacing around the 1st item in the content ul*/
+#content-music 	 ul li		{display:block;  margin: 0px 0px 0px 0px;padding:15px 0px;}
+/* Using margin here puts space around each of the items in the content list */
+li	{color:#EA2B15;font-size:15px; line-height:150%;}
+
+/*Film & Music Page*/
+#iframe {
+text-align:center;
+}
+/*Centres the video players within the web page*/
+
+#content-music a	{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+
+
+
+/*Experience Page*/
+#content 	ul li		{color:#000000; display:block; margin: 0px 0px 0px 0px;padding:15px 0px;}
+
+
+/*Contact Page*/
+
+
+/*Dalliance & Music Page  #music*/
+#music p {text-align:center;}
+
+/*Experience*/
+#experience li {color:#000000;font-size:15px; line-height:150%;}
