@@ -15,14 +15,14 @@ body					{ font-family:"Arial Black", Gadget, sans-serif}
 h1, h2, h3, h4, h5, h6 { 
 font-family:"Arial Black", Gadget, sans-serif;
 font-weight: bold; 
-color: #000; 
+color: #e0e0e0; 
 text-align:left;}
 
 P{
 	font-family: "Arial", Gadget, sans-serif;
 	font-size: 16px;
 	font-weight: normal;
-	color: 000;
+	color: e0e0e0;
 	line-height: 150%;
 
 }
@@ -31,7 +31,7 @@ P2{
 	font-family: "Arial", Gadget, sans-serif;
 	font-size: 16px;
 	font-weight: normal;
-	color: 000;
+	color: e0e0e0;
 	line-height: 150%;
 	font-style: italic;
 }
@@ -40,12 +40,12 @@ P3{
 	font-family: "Arial", Gadget, sans-serif;
 	font-size: 16px;
 	font-weight: bold;
-	color: 000;
+	color: e0e0e0;
 	line-height: 150%;
 }
 
 /* Main Page */
-#wrapper 				{width:900px; margin:20px auto; background-color:#fff; padding:0px 40px;}
+#wrapper 				{width:900px; margin:20px auto; background-color:#2b2b2b; padding:0px 40px;}
 /*the wrapper width sets the width available to the web page.  900 or 960 will be good for display on all screens including tablets.*/
 
 #logo 	{margin:25px 0px 0px 0px;}	/*positions the logo*/
@@ -53,13 +53,13 @@ P3{
 #topnav 				{clear:both; }
 /* clear:both; MEANS THE TOPNAV WILL CLEAR BOTH THE LOGO FLOAT:LEFT & SOCIAL-MEDIA FLOAT:RIGHT by not floating up next to them */
 
-#topnav		ul			{padding: 30px 0px 30px 80px;  border-top: 1px #000 dotted; }
+#topnav		ul			{padding: 30px 0px 30px 80px;  border-top: 1px #e0e0e0 dotted; }
 /*this corrects the spacing around the 1st item in the topnav ul*/
 #topnav 	ul li		{display:inline; list-style-type:none; padding: 10px 25px 25px 25px; margin: 0px;}
 /* Using margin here puts space around each of the items in the nav list */
-#topnav	a:link			{ font-weight:bold; text-decoration:none; text-transform:uppercase; color:#000; font-size:16px;}
-#topnav	a:visited		{ font-weight:bold; text-decoration:none; text-transform:uppercase; color:#000; font-size:16px;}
-#topnav	a:active		{ font-weight:bold; text-decoration:none; text-transform:uppercase; color:#000; font-size:16px;}
+#topnav	a:link			{ font-weight:bold; text-decoration:none; text-transform:uppercase; color:#e0e0e0; font-size:16px;}
+#topnav	a:visited		{ font-weight:bold; text-decoration:none; text-transform:uppercase; color:#e0e0e0; font-size:16px;}
+#topnav	a:active		{ font-weight:bold; text-decoration:none; text-transform:uppercase; color:#e0e0e0; font-size:16px;}
 #topnav	a:hover			{ font-weight:bold; text-decoration:none; text-transform:uppercase; color:#667; font-size:16px;}
 #topnav	a:focus			{ font-weight:bold; text-decoration:none; text-transform:uppercase; color:#667; font-size:16px;}
 /*The first attribute bolds the text, the second attribute removes the underlines, the third ensures all are shown in Uppercase, the fourth states the colour the link will change to when hovered over and the last the font size.*/
@@ -86,7 +86,7 @@ img.one	{
   width: 50%;
 }
 
-#footer			{ clear:both; padding:10px 0px; margin:0px; border-top: 1px #000 dotted;}
+#footer			{ clear:both; padding:10px 0px; margin:0px; border-top: 1px #e0e0e0 dotted;}
 /* clear:both; MEANS THE FOOTER WILL CLEAR BOTH THE CONTENT FLOAT:LEFT & RIGHTSIDE FLOAT:RIGHT by not floating up next to them*/
 #footer p	{ text-align:center; font-size:14px; font-weight:bold;}
 
@@ -111,7 +111,7 @@ img.two {
 /*Centres the Dalliance & Milkbar Collective images within the web page*/
 
 #content-music p	{ font-size:15px; line-height:200%; width:auto;}
-#content-music h1, h2 {color:#000;   text-align:center;
+#content-music h1, h2 {color:#e0e0e0;   text-align:center;
 margin-left: auto;  margin-right: auto;  width: 100%;}
 
 #gallery	{list-style-type:none;}
